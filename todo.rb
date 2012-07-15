@@ -45,7 +45,7 @@ class Todo_App
   else
     
     tlist = CSV.open('tlist.csv', 'w') do |csv|
-    csv << ""
+    csv << [" "]
     tlist.close
   end
     
